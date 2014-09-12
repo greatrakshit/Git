@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageViewContactImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewContactImage"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/checkBoxTC1"
+        android:layout_toRightOf="@+id/imageViewContactImage"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewName"
+        android:layout_below="@+id/textViewName"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/checkBoxTC1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewNumber"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewName"
+        android:visibility="invisible" />
+
+</RelativeLayout>
