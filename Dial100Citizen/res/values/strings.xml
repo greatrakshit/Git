@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dial 100 App</string>
+    <string name="register">Register</string>
+    <string name="edit_emergency_message">Edit Emergency Message</string>
+    <string name="okay">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="head">Safety Assistance App</string>
+    <string name="foot">Powered by Trinity Mobility</string>
+    <string name="back">Back</string>
+    <string name="name">Name</string>
+    <string name="number">Contact Number</string>
+    <string name="please_accept_tc">Please accept all terms </string>    
+    <string name="location_services_disabled">Dial100 App requires access to your location to function properly.\nPlease enable location services to continue using the application.</string>
+    <string name="open_location_settings">Open Location Settings</string>    
+    <string name="exit_application">Exit Application</string>
+    <string name="two_contacts_mandatory">Atleast 2 contacts required</string>
+	
+    <string-array name="settings_list">
+        <item>Edit Emergency Contacts</item>
+        <item>Message Interval</item>
+        <item>About Dial 100 App</item>
+    </string-array>
+
+    <string name="description">Dial 100  App for Safety Assistance helps you in emergency by alerting the police.
+	    It alerts Police by sending emergency message along with your location. 
+	    Your location data will be periodically updated so that Police can use this data to respond.
+	    \n\nTo use Dial 100 App during an emergency, press the SOS button switch to turn green for activating emergency.
+	     A one time registration sharing  your contacts and your other emergency contact will be required 
+	    for enabling and coordinating Police Service.        
+    </string>
+    
+    <string name="termsAndConditions">Dial 100 App for Safety assistance is intended to help users send quick notice of their approximate
+		location to Police and also notify other mobile phone Numbers of an emergency contact that you choose in advance.
+		It is made available only for your convenience and is not intended as, nor should it be treated as, a substitute for 
+		emergency calls to the Police authorities.\n\nThe accuracy of the location information and timely delivery of Safety assistance data may be affected by your surroundings 
+		and the condition of your devices and the device of your emergency contact.\n\nUnless otherwise expressly stated or legally required, 
+		we disclaim any warranty that the Safety assistance function will work accurately continuously or without any error.\n\nIn order for Safety assistance to function as intended, 
+		it is necessary to have the function, once deployed by you, automatically turn on GPS or Network Provider Location functions of your device.\n\nYou acknowledge and agree to such automatic enabling of your GPS or use of Network Provider Location  functions, without further notice to you or 
+		consent by you. 
+	</string>
+	
+    <string name="title_activity_register">Register Dial 100</string>
+    <string name="agreement_1">I have read and agree to all the Terms and Conditions.</string>
+    <string name="agreement_2">I agree to use this function only in accordance with law. </string>
+    <string name="agreement_3">I agree to allow Dial 100 App safety assistance to share my location with Police and my emergency contacts.</string>
+    <string name="agreement_4">I agree that mobile data and SMS services will be used during an emergency. I understand that this may result in additional charges.</string>
+
+    <string name="title_activity_add_contacts">AddContactsActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_add_or_create_contact_dialog">AddOrCreateContactDialog</string>
+    <string name="title_activity_create_contact_dialog">CreateContactDialog</string>
+    <string name="title_activity_stop_sos">StopSOSActivity</string>
+    <string name="title_add_or_delete_contacts">Emergency Contacts List</string>
+    <string name="notification_message">Dial100 app Activated.\nYour location is being tracked and sent to police every 10 seconds.\nStop Dial100 app ? </string>
+
+</resources>

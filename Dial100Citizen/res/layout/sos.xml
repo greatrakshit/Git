@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonSos"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/head"
+        android:textColor="#999999"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/images_bg"
+        android:onClick="startSendingSOS"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/txtFoot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageButtonSos"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/foot"
+        android:textColor="#999999"
+        android:textSize="18sp"
+        android:textStyle="italic|bold" />
+
+    <!-- <TextView
+        android:id="@+id/textLocationStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignRight="@+id/imageButton1"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Waiting For Location..." /> -->
+
+</RelativeLayout>

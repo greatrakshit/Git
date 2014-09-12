@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/sos_contacts"
+            android:title="View Contacts"
+            android:icon="@drawable/contact_grey"
+            android:showAsAction="always"
+            android:titleCondensed="Edit Contacts"/>
+<!--         <item android:id="@+id/sos_settings"
+            android:icon="@drawable/gear_small"
+            android:showAsAction="always"/> -->
+    </menu>
